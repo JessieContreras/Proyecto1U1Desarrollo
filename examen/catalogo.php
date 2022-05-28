@@ -98,9 +98,9 @@
                     <p><?php echo $row['Tipo']; ?></p>
                     <h4><?php echo $row['Precio']; ?></h4>
                     <div class="panel-footer">
-                        <a href="compras.php?id_producto=<?php print $row['id_producto'] ?>" class="btn btn-success btn-block">
+                        <a href="carrito/index.html" class="btn btn-success btn-block">
                             <span class="glyphicon glyphicon-shopping-car"> 
-                                Comprar
+                               Ver mas
                             </span>
                         </a>
                     </div>
