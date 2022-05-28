@@ -50,7 +50,12 @@ body {
   font-weight: 400;
   font-size: 16px;
   position: relative;
-  z-index: auto; }
+  z-index: auto; 
+  
+}
+.fondo{
+  background:linear-gradient( #ffffff, #ffffffc9, #171717d1);
+}
 
 h1,
 h2,
@@ -142,7 +147,7 @@ ul {
   line-height: 30px; }
 
 img.mfp-img {
-  -webkit-box-shadow: 0 2px 10px 8px rgba(15, 15, 15, 0.15);
+  -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
   box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15); }
 
 button.mfp-close,
@@ -191,7 +196,7 @@ input:required {
   margin-top: 15px; }
 
 .mt-30 {
-  margin-top: 10px; }
+  margin-top: 30px; }
 
 .mt-40 {
   margin-top: 40px; }
@@ -659,17 +664,17 @@ input:required {
   position: relative;
   z-index: 2;
   width: 100%;
-  height: 880px;
+  height: 500px;
   background-color: #fc6060; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .single-welcome-slide {
-      height: 750px; } }
+      height: 450px; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .single-welcome-slide {
-      height: 750px; } }
+      height: 450px; } }
   @media only screen and (max-width: 767px) {
     .single-welcome-slide {
-      height: 600px; } }
+      height: 500px; } }
   .single-welcome-slide .welcome-text {
     position: relative;
     z-index: 1; }
@@ -678,7 +683,46 @@ input:required {
       font-size: 82px;
       display: block;
       margin-bottom: 0;
-      background: -webkit-linear-gradient(#ff9696, #ffe89e);
+      background: -webkit-linear-gradient(#98ff53, #8aff46);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
+      @media only screen and (max-width: 767px) {
+        .single-welcome-slide .welcome-text h2 {
+          font-size: 42px; } }
+    .single-welcome-slide .welcome-text p {
+      color: #ffffff;
+      margin-bottom: 50px;
+      display: block; }
+    .single-welcome-slide .welcome-text .hero-mail-contact {
+      color: #ffffff;
+      font-style: italic;
+      text-decoration: underline; }
+      .single-welcome-slide .welcome-text .hero-mail-contact:hover, .single-welcome-slide .welcome-text .hero-mail-contact:focus {
+        color: #fc6060; }
+      .single-welcome-slide {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 500px;
+  background-color: #fc6060; }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .single-welcome-slide {
+      height: 450px; } }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .single-welcome-slide {
+      height: 450px; } }
+  @media only screen and (max-width: 767px) {
+    .single-welcome-slide {
+      height: 500px; } }
+  .single-welcome-slide .welcome-text {
+    position: relative;
+    z-index: 1; }
+    .single-welcome-slide .welcome-text h2 {
+      font-weight: 700;
+      font-size: 82px;
+      display: block;
+      margin-bottom: 0;
+      background: -webkit-linear-gradient(#98ff53, #8aff46);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
       @media only screen and (max-width: 767px) {
@@ -695,8 +739,53 @@ input:required {
       .single-welcome-slide .welcome-text .hero-mail-contact:hover, .single-welcome-slide .welcome-text .hero-mail-contact:focus {
         color: #fc6060; }
 
+
+
+
+        .single-welcome-slidea {
+          position: relative;
+          z-index: 2;
+          width: 100%;
+          height: 500px;
+          background-color: #fc6060; }
+          @media only screen and (min-width: 992px) and (max-width: 1199px) {
+            .single-welcome-slidea {
+              height: 450px; } }
+          @media only screen and (min-width: 768px) and (max-width: 991px) {
+            .single-welcome-slidea {
+              height: 450px; } }
+          @media only screen and (max-width: 767px) {
+            .single-welcome-slidea {
+              height: 500px; } }
+          .single-welcome-slidea .welcome-text {
+            position: relative;
+            z-index: 1; }
+            .single-welcome-slidea .welcome-text h2 {
+              font-weight: 700;
+              font-size: 82px;
+              display: block;
+              margin-bottom: 0;
+              background: -webkit-linear-gradient(#98ff53, #8aff46);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent; }
+              @media only screen and (max-width: 767px) {
+                .single-welcome-slidea .welcome-text h2 {
+                  font-size: 42px; } }
+            .single-welcome-slidea .welcome-text p {
+              color: #ffffff;
+              margin-bottom: 50px;
+              display: block; }
+            .single-welcome-slidea .welcome-text .hero-mail-contact {
+              color: #ffffff;
+              font-style: italic;
+              text-decoration: underline; }
+              .single-welcome-slidea .welcome-text .hero-mail-contact:hover, .single-welcome-slide .welcome-text .hero-mail-contact:focus {
+                color: #fc6060; }
+        
+
 /* :: 9.0 Footer CSS */
 .footer-content {
+ 
   padding: 20px 0; }
   .footer-content .copywrite-text {
     position: relative;
@@ -727,7 +816,9 @@ input:required {
         margin-right: 5px;
         font-size: 12px; } }
     .footer-content .social-info a:hover, .footer-content .social-info a:focus {
-      color: #fc6060; }
+      color: #fc6060;
+    
+      }
 
 /* :: 10.0 Follow CSS */
 .single-instagram-item {
